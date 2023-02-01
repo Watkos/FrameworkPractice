@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T19:35:23 CET" name="Suite" finished-at="2022-12-01T19:36:49 CET" duration-ms="86002">
+    <groups>
+      <group name="Purchases">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" name="SubmitOrder" class="MW.SeleniumTestFramework.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchases -->
+    </groups>
+    <test started-at="2022-12-01T19:35:23 CET" name="Submit Order Test" finished-at="2022-12-01T19:36:39 CET" duration-ms="76291">
+      <class name="MW.SeleniumTestFramework.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:35:23 CET" name="launchApplication" finished-at="2022-12-01T19:35:46 CET" duration-ms="23094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:35:46 CET" name="SubmitOrder" data-provider="getData" finished-at="2022-12-01T19:36:01 CET" duration-ms="14794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName=ADIDAS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:01 CET" name="tearDown" finished-at="2022-12-01T19:36:03 CET" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:03 CET" name="launchApplication" finished-at="2022-12-01T19:36:19 CET" duration-ms="15797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:19 CET" name="SubmitOrder" data-provider="getData" finished-at="2022-12-01T19:36:24 CET" duration-ms="5013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName=ZARA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:24 CET" name="tearDown" finished-at="2022-12-01T19:36:25 CET" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:25 CET" name="launchApplication" finished-at="2022-12-01T19:36:37 CET" duration-ms="11769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:37 CET" name="OrderHistoryTest" finished-at="2022-12-01T19:36:39 CET" depends-on-methods="MW.SeleniumTestFramework.Tests.SubmitOrderTest.SubmitOrder" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MW.SeleniumTestFramework.Tests.SubmitOrderTest@451001e5]" started-at="2022-12-01T19:36:39 CET" name="tearDown" finished-at="2022-12-01T19:36:39 CET" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MW.SeleniumTestFramework.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2022-12-01T19:36:40 CET" name="Error Validation Tests" finished-at="2022-12-01T19:36:49 CET" duration-ms="9045">
+      <class name="MW.SeleniumTestFramework.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:MW.SeleniumTestFramework.Tests.ErrorValidationsTest@d554c5f]" started-at="2022-12-01T19:36:40 CET" name="launchApplication" finished-at="2022-12-01T19:36:48 CET" duration-ms="8313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorValidations()[pri:0, instance:MW.SeleniumTestFramework.Tests.ErrorValidationsTest@d554c5f]" started-at="2022-12-01T19:36:48 CET" name="ErrorValidations" finished-at="2022-12-01T19:36:49 CET" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MW.SeleniumTestFramework.Tests.ErrorValidationsTest@d554c5f]" started-at="2022-12-01T19:36:49 CET" name="tearDown" finished-at="2022-12-01T19:36:49 CET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MW.SeleniumTestFramework.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
